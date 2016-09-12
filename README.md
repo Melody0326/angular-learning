@@ -14,7 +14,7 @@ AngularJS 最初由 Misko Hevery 和 Adam Abrons 于 2009 年开发，后来成�
 [请参考github](https://github.com/angular/angular.js/releases/)
 
 ### AngularJS 功能
-```
+
 AngularJS 是专门为应用程序设计的 HTML。
 
 AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page Applications）变得更加容易。
@@ -28,10 +28,10 @@ AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page App
 * AngularJS 可以在 HTML 元素"背后"添加代码。
 
 * AngularJS 支持输入验证
-```
+
 
 ### AngularJS 主要特性
-```
+
 * MVC
 
 * 模块化与依赖注入
@@ -39,7 +39,7 @@ AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page App
 * 双向数据绑定
 
 * 指令与 UI 控件
-```
+
 
 ### AngularJS 资源
 ```
@@ -58,7 +58,7 @@ AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page App
 或者通过nodejs的npm下载：npm install angular
 
 ### 使用AngularJS 
-```
+
 * 下载加载 angular.js 库
 
 * 使用 ng-app 指令告诉 angular 应该管理 DOM 中的哪一些部分
@@ -66,10 +66,10 @@ AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page App
 * HTML5 允许扩展的（自制的）属性，以  data- 开头。
 
 AngularJS 属性以  ng- 开头，但是您可以使用  data-ng- 来让网页对 HTML5 有效。
-```
+
 
 ### AngularJS 常用指令
-```
+
 * ng_app：
 ng-app 指令定义了 AngularJS 应用程序的 根元素。
 
@@ -133,7 +133,7 @@ ng-bind 指令把应用程序变量 name 绑定到某个段落的 innerHTML。
 ng-init 指令为 AngularJS 应用程序定义了 初始值。
 
 通常情况下，不使用 ng-init。您将使用一个控制器或模块来代替它。
-```
+
 
 ### AngularJS 表达式
 ```
@@ -147,8 +147,6 @@ AngularJS 表达式 很像 JavaScript  表达式：它们可以包含文字、�
 ```
 
 ### AngularJS 控制器
-```
-
 AngularJS 控制器 控制 AngularJS 应用程序的数据；
 
 AngularJS 控制器是常规的 JavaScript 对象；
@@ -262,7 +260,7 @@ function namesController($scope) {
   
 }
 </script>
-```
+
 
 ### AngularJS 应用程序
 您的应用程序至少应该有一个模块文件，一个控制器文件。
