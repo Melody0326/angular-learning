@@ -14,30 +14,35 @@ AngularJS 最初由 Misko Hevery 和 Adam Abrons 于 2009 年开发，后来成�
 [请参考github](https://github.com/angular/angular.js/releases/)
 
 ### AngularJS 功能
+```
 AngularJS 是专门为应用程序设计的 HTML。
 
 AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page Applications）变得更加容易。
 
-1  AngularJS 把应用程序数据绑定到 HTML 元素。
+* AngularJS 把应用程序数据绑定到 HTML 元素。
 
-2  AngularJS 可以克隆和重复 HTML 元素。
+* AngularJS 可以克隆和重复 HTML 元素。
 
-3  AngularJS 可以隐藏和显示 HTML 元素。
+* AngularJS 可以隐藏和显示 HTML 元素。
 
-4  AngularJS 可以在 HTML 元素"背后"添加代码。
+* AngularJS 可以在 HTML 元素"背后"添加代码。
 
-5  AngularJS 支持输入验证
+* AngularJS 支持输入验证
+```
 
 ### AngularJS 主要特性
-1.MVC
+```
+* MVC
 
-2.模块化与依赖注入
+* 模块化与依赖注入
 
-3.双向数据绑定
+* 双向数据绑定
 
-4.指令与 UI 控件
+* 指令与 UI 控件
+```
 
 ### AngularJS 资源
+```
 [官方网站](http://Angularjs.org)
 
 [AngularJS中文社区](http://www.angularjs.cn/)
@@ -45,6 +50,7 @@ AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page App
 [学习分享平台](http://www.ngnice.com/)
 
 [github](https://github.com/angular)
+```
 
 ### AngularJS 下载
 [下载](http://www.bootcdn.cn/angular.js/)
@@ -52,15 +58,18 @@ AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page App
 或者通过nodejs的npm下载：npm install angular
 
 ### 使用AngularJS 
-1. 下载加载 angular.js 库
+```
+* 下载加载 angular.js 库
 
-2. 使用 ng-app 指令告诉 angular 应该管理 DOM 中的哪一些部分
+* 使用 ng-app 指令告诉 angular 应该管理 DOM 中的哪一些部分
 
-3. HTML5 允许扩展的（自制的）属性，以  data- 开头。
+* HTML5 允许扩展的（自制的）属性，以  data- 开头。
 
 AngularJS 属性以  ng- 开头，但是您可以使用  data-ng- 来让网页对 HTML5 有效。
+```
 
 ### AngularJS 常用指令
+```
 * ng_app：
 ng-app 指令定义了 AngularJS 应用程序的 根元素。
 
@@ -124,8 +133,10 @@ ng-bind 指令把应用程序变量 name 绑定到某个段落的 innerHTML。
 ng-init 指令为 AngularJS 应用程序定义了 初始值。
 
 通常情况下，不使用 ng-init。您将使用一个控制器或模块来代替它。
+```
 
 ### AngularJS 表达式
+```
 AngularJS 表达式写在双大括号内：{{ expression }}。
 
 AngularJS 表达式把数据绑定到 HTML，这与 ng-bind 指令有异曲同工之妙。
@@ -133,8 +144,10 @@ AngularJS 表达式把数据绑定到 HTML，这与 ng-bind 指令有异曲同�
 AngularJS 将在表达式书写的位置"输出"数据。
 
 AngularJS 表达式 很像 JavaScript  表达式：它们可以包含文字、运算符和变量。
+```
 
 ### AngularJS 控制器
+```
 
 AngularJS 控制器 控制 AngularJS 应用程序的数据；
 
@@ -151,7 +164,7 @@ ng-controller 指令定义了应用程序控制器；
 angular 中$scope 是连接 controllers(控制器)和 templates(模板 view/视图)的主要胶合体。
 
 我们可以把我们的 model 存放在 scope 上，来达到双向你绑定。
-
+```
 
 示例：
 ```
@@ -198,6 +211,7 @@ function personController($scope) {
 ```
 
 示例讲解：
+```
 AngularJS 应用程序由 ng-app 定义。应用程序在 <div> 内运行；
 
 ng-controller 指令把控制器命名为 object；
@@ -209,6 +223,7 @@ ng-controller 指令把控制器命名为 object；
 person 对象有两个属性：firstName 和 lastName；
 
 ng-model 指令绑定输入域到控制器的属性（firstName 和 lastName）。
+```
 
 * ng-repeat：
 ng-repeat指令结合ng-controller
