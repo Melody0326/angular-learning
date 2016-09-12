@@ -209,7 +209,7 @@ function personController($scope) {
 ```
 
 示例讲解：
-```
+
 AngularJS 应用程序由 ng-app 定义。应用程序在 <div> 内运行；
 
 ng-controller 指令把控制器命名为 object；
@@ -221,7 +221,7 @@ ng-controller 指令把控制器命名为 object；
 person 对象有两个属性：firstName 和 lastName；
 
 ng-model 指令绑定输入域到控制器的属性（firstName 和 lastName）。
-```
+
 
 * ng-repeat：
 ng-repeat指令结合ng-controller
