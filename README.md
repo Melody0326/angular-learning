@@ -42,7 +42,6 @@ AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page App
 
 
 ### AngularJS 资源
-```
 [官方网站](http://Angularjs.org)
 
 [AngularJS中文社区](http://www.angularjs.cn/)
@@ -50,7 +49,7 @@ AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page App
 [学习分享平台](http://www.ngnice.com/)
 
 [github](https://github.com/angular)
-```
+
 
 ### AngularJS 下载
 [下载](http://www.bootcdn.cn/angular.js/)
@@ -147,6 +146,7 @@ AngularJS 表达式 很像 JavaScript  表达式：它们可以包含文字、�
 ```
 
 ### AngularJS 控制器
+```
 AngularJS 控制器 控制 AngularJS 应用程序的数据；
 
 AngularJS 控制器是常规的 JavaScript 对象；
@@ -260,6 +260,7 @@ function namesController($scope) {
   
 }
 </script>
+```
 
 
 ### AngularJS 应用程序
