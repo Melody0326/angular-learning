@@ -11,7 +11,7 @@ AngularJS 最初由 Misko Hevery 和 Adam Abrons 于 2009 年开发，后来成�
 ```
 
 ### AngularJS 版本简介
-请参考github(https://github.com/angular/angular.js/releases/)
+[请参考github](https://github.com/angular/angular.js/releases/)
 
 ### AngularJS 功能
 AngularJS 是专门为应用程序设计的 HTML。
@@ -47,7 +47,7 @@ AngularJS 使得开发现代的单一页面应用程序（SPAs：Single Page App
 [github](https://github.com/angular)
 
 ### AngularJS 下载
-(http://www.bootcdn.cn/angular.js/)
+[下载](http://www.bootcdn.cn/angular.js/)
 
 或者通过nodejs的npm下载：npm install angular
 
